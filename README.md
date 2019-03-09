@@ -1,5 +1,5 @@
 # zenvia-nd
-Lightweight and dependency free Node Module for sending SMS messages with Zenvia API.
+Lightweight for sending SMS messages with Zenvia API.
 
 Usage
 
