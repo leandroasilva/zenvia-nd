@@ -1,14 +1,15 @@
-# zenvia-nd
-Lightweight for sending SMS messages with Zenvia API.
+# zenvia-node
+[![npm version](https://badge.fury.io/js/zenvia-nd.svg)](https://badge.fury.io/js/zenvia-nd)
 
-Usage
-
+Lightweight and ready to send SMS messages with the Zenvia API.
+## Usage
 Install the package:
 
-npm install zenvia-node
+`npm install zenvia-nd`
 
 Example:
 
+```
 // Define Zenvia API credentials
 var credentials = {
     username: "user.name",
@@ -16,7 +17,7 @@ var credentials = {
 };
 
 // Require zenvia module
-var zenvia = require('zenvia-node')(credentials);
+var zenvia = require('zenvia-nd')(credentials);
 
 // Sending a single sms
 zenvia.sendSms({
@@ -29,3 +30,4 @@ zenvia.sendSms({
 }).catch(function(err) {
     console.log("Error: " + err); //Error
 });
+```
