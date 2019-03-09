@@ -1,11 +1,24 @@
 {
   "name": "zenvia-nd",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "API wrapper for Zenvia SMSs API",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leandroasilva/zenvia-nd.git"
+  },  
+  "bugs": {
+    "url": "https://github.com/leandroasilva/zenvia-nd/issues"
+  },   
+  "homepage": "https://github.com/leandroasilva/zenvia-nd", 
+  "keywords": [
+    "node",
+    "zenvia",
+    "sms"
+  ],  
   "author": "Leandro A Silva <halk_lenson@hotmail.com>",
   "license": "MIT",
   "dependencies": {
