@@ -1,4 +1,4 @@
-# zenvia-node
+# zenvia-nd
 [![npm version](https://badge.fury.io/js/zenvia-nd.svg)](https://badge.fury.io/js/zenvia-nd)
 
 Lightweight and ready to send SMS messages with the Zenvia API.
